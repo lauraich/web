@@ -12,7 +12,10 @@
     text-align: center;
     padding: 20px;
     margin-top: 8%;
-    margin-left: 30%;
+}
+
+.tbl {
+    overflow-x: auto;
 }
 
 .correo {
@@ -102,7 +105,7 @@
 
 #studiesC {
     margin: auto;
-    min-width: 50%;
+    min-width: 20%;
     max-width: 70%;
     width: 70%;
     margin-left: 6%;
@@ -218,34 +221,41 @@
     background-color: #f2f2f2;
     border: 1px solid black;
     height: 40%;
+    width: 50%;
     border-radius: 5px;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 97%;
+    padding: 20px;
+    /*
     margin-top: 170px;
     min-width: 70%;
     max-width: 100%;
     margin-left: 90%;
+    */
 }
 
 #interests {
     margin: auto;
     float: left;
     height: 80%;
+    width: 40%;
     min-height: 772px;
-    min-width: 40%;
-    max-width: 70%;
+    min-width: 10%;
+    max-width: 100%;
 }
 
 #titleInt {
     padding-top: 10px;
     text-align: center;
-    padding-left: 10px;
 }
 
 #audioBox {
     margin: auto;
     padding: auto;
-    margin-left: 23%;
-    min-width: 30%;
-    max-width: 70%;
+    width: 100%;
+    min-width: 40%;
+    max-width: 100%;
 }
 
 #listPro {
