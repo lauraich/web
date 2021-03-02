@@ -4,18 +4,18 @@
 }
 
 .tableE {
-    min-width: 50%;
     max-width: 100%;
     border: 1px solid black;
     background-color: white;
     border-collapse: collapse;
     text-align: center;
     padding: 20px;
-    margin-top: 8%;
+    margin-top: 150px;
 }
 
 .tbl {
     overflow-x: auto;
+    width: 100%;
 }
 
 .correo {
@@ -94,23 +94,29 @@
     background-color: #9caf88;
 }
 
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 #studies {
     margin: auto;
-    min-width: 20%;
+    width: 100%;
     max-width: 70%;
-    margin-left: 6%;
     float: left;
-    min-height: 772px;
+    min-height: 727px;
+}
+
+#formatT {
+    margin-left: 45%;
 }
 
 #studiesC {
     margin: auto;
-    min-width: 20%;
+    width: 100%;
     max-width: 70%;
-    width: 70%;
-    margin-left: 6%;
     float: left;
-    min-height: 772px;
+    min-height: 727px;
 }
 
 #button {
@@ -146,50 +152,47 @@
 
 #hobbies {
     margin: auto;
-    float: left;
-    width: 60%;
+    max-width: 100%;
     height: 75%;
-    margin-left: auto;
+    margin-left: 35px;
     margin-right: auto;
-    padding-left: 25%;
-    min-height: 772px;
+    min-height: 727px;
 }
 
 #formC {
     margin: auto;
-    float: left;
     width: 70%;
-    height: 78%;
-    min-height: 772px;
+    min-height: 727px;
+}
+
+#contacts {
+    padding: auto;
+    padding-top: 100px;
 }
 
 #formulario {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
     width: 50%;
-    height: 42%;
+    padding: 20px;
     border: 1px solid black;
     margin: auto;
-    margin-top: 120px;
     text-align: left;
-    margin-left: 45%;
-}
-
-#container {
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 #information {
     margin: auto;
-    min-height: 772px;
+    min-height: 727px;
     padding-left: 10px;
     margin-left: 6%;
     width: 60%;
     float: left;
     text-align: left;
     text-align: justify;
+}
+
+#pasatiempos {
+    padding-top: 170px;
 }
 
 #biography {
@@ -210,14 +213,13 @@
 }
 
 #proyects {
-    width: 70%;
-    float: left;
-    margin-left: 5%;
-    min-height: 772px;
+    margin: auto;
+    height: 70%;
+    margin-left: 10%;
+    min-height: 727px;
 }
 
 #boxInt {
-    float: left;
     background-color: #f2f2f2;
     border: 1px solid black;
     height: 40%;
@@ -227,12 +229,6 @@
     margin-top: 120px;
     margin-left: 97%;
     padding: 20px;
-    /*
-    margin-top: 170px;
-    min-width: 70%;
-    max-width: 100%;
-    margin-left: 90%;
-    */
 }
 
 #interests {
@@ -240,8 +236,7 @@
     float: left;
     height: 80%;
     width: 40%;
-    min-height: 772px;
-    min-width: 10%;
+    min-height: 727px;
     max-width: 100%;
 }
 
@@ -259,7 +254,7 @@
 }
 
 #listPro {
-    margin-top: 5%;
+    padding-top: 5%;
 }
 
 p {
@@ -294,7 +289,9 @@ tr.tableE {
 }
 
 nav ul.a {
-    display: flex;
+    display: inline-block;
+    width: 70%;
+    padding-left: 30%;
     justify-content: center;
 }
 
